@@ -34,3 +34,11 @@ const watcher = chokidar.watch(['./'], { /* chokidar options */ })
 
 watch(() => console.log('Something changed!'), watcher)
 ```
+
+Providing a function to call when the watcher has completed initializing (`chokidar`'s `ready` event):
+
+```typescript
+import { watch } from 'chokidar-debounced'
+
+watch(() => console.log('Something changed!'), ['./'], () => console.log('Watching for changes...'))
+```
