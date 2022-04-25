@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Debounced wrapper for chokidar",
   "main": "build/index.js",
+  "repository": "https://github.com/samhuk/chokidar-debounced",
   "scripts": {
     "build": "tsc"
   },
