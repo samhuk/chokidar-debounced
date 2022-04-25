@@ -40,5 +40,5 @@ Providing a function to call when the watcher has completed initializing (`choki
 ```typescript
 import { watch } from 'chokidar-debounced'
 
-watch(() => console.log('Something changed!'), ['./'], () => console.log('Watching for changes...'))
+watch(() => console.log('Something changed!'), ['./'], 500, () => console.log('Watching for changes...'))
 ```
