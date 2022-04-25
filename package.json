@@ -1,6 +1,6 @@
 {
   "name": "chokidar-debounced",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Debounced wrapper for chokidar",
   "main": "build/index.js",
   "repository": "https://github.com/samhuk/chokidar-debounced",
